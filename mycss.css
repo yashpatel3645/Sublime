@@ -30,15 +30,32 @@ img, .logo{
 .afterpic{
 	margin-top: -45px;
 	margin-left: 400px;
-	transition: 0.9;
 }
 a{
 	color: black;
 	text-decoration: none;
 	padding: 10px;
+	transition: 0.7s;
 }
 a:hover{
 	background-color: green;
 	color: white;
-	border-radius: 5px; 
+	border-radius: 5px;
+}
+.Category{
+	height: 100px;
+    width: 112px;
+    margin-left: 449px;
+    margin-top: 6px;
+    display: none;
+}
+.set{
+	margin-left: 30px;
+	opacity: 0.7;
+}
+.afterpic:hover + .Category{
+	display: inline-block;
+}
+ul{
+	display: inline;
 }
