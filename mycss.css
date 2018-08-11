@@ -1,0 +1,44 @@
+nav{
+	height: 40px;
+	background-color: #134775;
+	width: auto;
+	padding-top: 10px;
+	padding-left: 10px;
+	color: white;
+	border-bottom-left-radius: 45px;
+	border-bottom-right-radius: 45px;
+}
+.fa-envolope-o{
+	color: white;
+}
+.fa-phone{
+	color: white;
+	float: right;
+	margin-right: 25px;
+}
+header{
+	height: 100px;
+	width: auto;
+	margin-top: 11px;
+}
+img, .logo{
+	height: 70px;
+    width: 300px;
+    margin-top: 16px;
+    margin-left: 16px
+}
+.afterpic{
+	margin-top: -45px;
+	margin-left: 400px;
+	transition: 0.9;
+}
+a{
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+}
+a:hover{
+	background-color: green;
+	color: white;
+	border-radius: 5px; 
+}
