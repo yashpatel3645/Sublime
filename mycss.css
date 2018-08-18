@@ -1,12 +1,14 @@
 nav{
 	height: 40px;
 	background-color: #134775;
-	width: auto;
+	width: 100%;
 	padding-top: 10px;
 	padding-left: 10px;
 	color: white;
 	border-bottom-left-radius: 45px;
 	border-bottom-right-radius: 45px;
+	background-image: linear-gradient(blue);
+	
 }
 .fa-envolope-o{
 	color: white;
@@ -30,6 +32,7 @@ img, .logo{
 .afterpic{
 	margin-top: -45px;
 	margin-left: 400px;
+	
 }
 a{
 	color: black;
@@ -43,19 +46,22 @@ a:hover{
 	border-radius: 5px;
 }
 .Category{
-	height: 100px;
+	height: 0px;
     width: 112px;
-    margin-left: 449px;
+    margin-left: 52px;
     margin-top: 6px;
     display: none;
+    transition: height 2s;
 }
 .set{
 	margin-left: 30px;
 	opacity: 0.7;
 }
-.afterpic:hover + .Category{
-	display: inline-block;
+.afterpic:hover .Category{
+	height: 130px;
+	display: block;
 }
 ul{
 	display: inline;
+	list-style-type: none;
 }
