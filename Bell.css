@@ -1,0 +1,33 @@
+.background{
+	background-image: url("images/London-Black-And-White-Wallpapers-002.jpg");
+	width: auto;
+	height: 600px;
+	opacity: 0.6;
+}
+body{
+	margin: 0px;
+}
+.img{
+	height: 40px;
+	width: 124px;
+
+}
+img{
+	height: 40px;
+	width: 124px;
+}
+li{
+	display: inline;	
+     padding: 33px;
+}
+ul{
+	margin: 0px;
+	
+}
+.container{
+	background-color: #1A9DB7;
+	height: 70px
+	width: auto;
+	padding-left: 27px;
+    padding-top: 16px;
+}
