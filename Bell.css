@@ -1,33 +1,93 @@
-.background{
-	background-image: url("images/London-Black-And-White-Wallpapers-002.jpg");
+.header{
+	height: 64px;
 	width: auto;
-	height: 600px;
-	opacity: 0.6;
+	background-color: #1a9db7;
+	margin: 0px;
+	position: fixed;
+	right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    position: sticky;
+    z-index:1;
+    padding-top: 10px;
 }
 body{
 	margin: 0px;
 }
-.img{
-	height: 40px;
-	width: 124px;
-
-}
 img{
 	height: 40px;
-	width: 124px;
 }
-li{
-	display: inline;	
-     padding: 33px;
-}
-ul{
+.nevi1{
+	display: inline;
 	margin: 0px;
-	
+	padding-left: 77px;
 }
-.container{
-	background-color: #1A9DB7;
-	height: 70px
-	width: auto;
-	padding-left: 27px;
-    padding-top: 16px;
+#img-nevi{
+	padding-left: 168px;
+}
+a{
+	text-decoration: none;
+	color: white !important;
+	font-size: 17px;
+}
+html{
+	 font-family: sans-serif;
+}
+.fa-rocket{
+	background-color: #1a9db7;
+	border-radius: 50%;
+}
+.fa-envelope{
+	background-color: #1a9db7;
+	border-radius: 50%;
+}
+.fa-bell{
+	background-color: #1a9db7;
+	border-radius: 50%;
+}
+.fa-database{
+	background-color: #1a9db7;
+	border-radius: 50%;
+}
+.fa-cutlery{
+	background-color: #1a9db7;
+	border-radius: 50%;
+}
+.fa-tachometer{
+	background-color: #1a9db7;
+	border-radius: 50%;
+}
+.col-md-4{
+	display: inline;
+	text-align: center;
+    margin-bottom: 50px;
+}
+.fontp{
+	font-size: 14px;
+}
+a:hover{
+	text-decoration: none !important;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	margin-left: 930px;
+	top: 23px;
+	z-index: 1;
+	background-color: white;
+}
+.dropdown-content a{
+	text-decoration: none;
+	display: block;
+	color: #1a9db7 !important;
+	padding: 12px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown{	
+	display: inline;
+	    margin-top: 17px;
 }
