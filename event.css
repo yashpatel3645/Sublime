@@ -1,0 +1,32 @@
+.nav{
+	width: auto;
+	height: 64px;
+	background-color: orange;
+	text-decoration: none;
+	color: white;
+	position: fixed;
+	right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+.nav1 a{
+	color: white !important;
+}
+body{
+	margin: 0px;
+}
+.nav1{
+	display: inline;
+	padding-left: 37px;
+	float: left;
+    padding-top: 20px;
+}
+.log{
+	float: right;
+	padding-right: 10px;
+}
+.nav2{
+	margin-top: -32px;
+}
