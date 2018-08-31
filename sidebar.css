@@ -1,0 +1,28 @@
+.sidebar{
+	position: fixed;
+	height: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 300px;
+	top: 0px;
+	background-image: linear-gradient(to right,#4b2377,#671abf,#4b0ad6);
+}
+.fa-user-circle-o{
+	background-color: #abb0ba !important;
+	border-radius: 50%;
+	color: #671abf;
+	margin-left: 112px;
+    margin-top: 62px;
+}
+.fa-question-circle-o{
+	color: white;
+	margin-left: 137px;
+}
+p{
+	color: white;
+	margin-left: 30px;
+	padding: 10px;
+}
+body{
+	margin-top: 0px;
+}
