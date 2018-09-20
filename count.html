@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Count</title>
+        <style>
+        div{
+            height: 100px; 
+            width: 100px; 
+            background-color: brown;
+            animation: stop 0.1s infinite;
+            border-radius: 15px;
+        }
+        @keyframes rotate{
+            from {transform:rotate(0deg);}
+            to {transform:rotate(360deg);}
+        }
+        @keyframes stop{
+            from {transform:rotate(0deg);}
+            to {transform:rotate(0deg);}
+        }
+        </style>
+        <script>
+            i=2;
+            function mix()
+            {
+                if(i%2==0)
+                {
+                    document.getElementById("rot").style.animation="rotate 0.1s infinite";
+                    document.getElementById("start1").innerHTML="Stop";
+                    document.getElementById("start1").id="stop1";
+                    i++;
+                }
+                else
+                {
+                    document.getElementById("rot").style.animation="stop 1s infinite";
+                    document.getElementById("stop1").innerHTML="Start";
+                    document.getElementById("stop1").id="start1";
+                    i++;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <button id="start1" onclick="mix()" style="margin-left: 20px;">Start</button><br><br>
+        <div id="rot">
+
+        </div>
+    </body>
+</html>

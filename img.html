@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <script>
+            i=0;
+            var temp = ["images/322882852_af9c8f0d34_z.jpg","images/download.jpg","images/factory-1221898_960_720.jpg","images/London-Black-And-White-Wallpapers-002.jpg"];
+            function change()
+            {
+                document.getElementById("img").src=temp[i];
+                // if(i%2==0)
+                // {
+                //     document.getElementById("img").src=temp[i];
+                //         i++;
+                // }
+                // else
+                // {
+                //     document.getElementById("img").src="images/322882852_af9c8f0d34_z.jpg";
+                //     i++;
+                // }
+            }
+            function inc()
+            {
+                if(i<3)
+                {
+                    i++;
+                }
+                else
+                {
+                    i=0;
+                }
+            }
+            function dec()
+            {
+                if(i<=0)
+                {
+                    i=3;
+                }
+                else{
+                    i--;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <img id="img" src="images/322882852_af9c8f0d34_z.jpg" height="200px" width="200px"><br>
+        <button onclick="dec(); change(); ">Previous</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <button onclick=" inc(); change(); ">Next</button>
+    </body>
+</html>

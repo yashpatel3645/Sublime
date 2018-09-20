@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Helllo</title>
+        <script>
+            var temp=0;
+            function clean()
+            {
+                document.getElementById("div1").innerHTML="";
+            }
+            function add()
+            {
+                temp =parseInt(document.getElementById("txtid").value);
+                for(i=0;i<temp;i++)
+                {
+                    document.getElementById("div1").innerHTML+="<input type='text' id='txt"+i+"'/>";
+                }
+                document.getElementById("div1").style.display="block";
+                document.getElementById("get").style.display="block";
+            }
+            function show()
+            {
+                    var a = "";
+                    a+='<tr>';
+                    for(j=0;j<temp;j++)
+                    {
+                        a+="<td>"+document.getElementById("txt"+j+"").value+"</td>";
+                    }
+                    a+='</tr>'
+                    document.getElementById("table").innerHTML+=a;
+                document.getElementById("showdata").style.display="block";
+                }
+        </script>
+    </head>
+    <body>
+        <input type="text" id="txtid" />
+        <button onclick=" clean(); add(); ">Click</button>
+        <div id="div1" style="display: none">
+
+        </div>
+        <button onclick="show()" style="display: none" id="get">Get Data</button>
+        <div id="showdata" style="display: none" >
+           <table border="4">
+               <tbody id="table"></tbody>
+           </table>
+        </div>
+    </body>
+</html>
