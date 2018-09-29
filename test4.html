@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+                $(document).ready(function(){
+                    $("button").click(function(){
+                        var a = document.getElementById("std1").value;
+                        var b = a.split(" ");
+                        for(var i=0;i<3;i++)
+                        {
+                            document.getElementsByTagName("p")[i].style.color=b[i];
+                        }
+                        
+                });
+                });
+        </script>
+    </head>
+    <body>
+        <input type="text" name="std1" id="std1">
+        <button>Result</button>
+        <p>Student1</p>
+        <p>Student2</p>
+        <p>Student3</p>
+    </body>
+</html>
